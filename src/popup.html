@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>LinkedIn Job Insights</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <style>
+        :root {
+            --bg: #0a0a0b;
+            --card: #111216;
+            --muted: #8b93a7;
+            --accent: #0a66c2;
+            --ok: #18a558;
+            --err: #e5484d;
+            --border: #1c1f26;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: #fff;
+            font: 14px/1.4 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .wrap {
+            width: 340px;
+            padding: 14px;
+        }
+
+        .card {
+            background: linear-gradient(180deg, var(--card), #0d0e11);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 12px 14px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+            position: relative;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .title {
+            font-size: 14px;
+            color: #e5e7ef;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .sub {
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 999px;
+            border: 1px solid #273042;
+            color: #b8c1d9;
+            font-size: 11px;
+        }
+
+        .btn {
+            appearance: none;
+            border: 1px solid #2a3548;
+            background: #121521;
+            color: #dfe6ff;
+            padding: 8px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            border-color: #33425c;
+        }
+
+        .btn.primary {
+            background: var(--accent);
+            border-color: #0b61b7;
+        }
+
+        .status.ok {
+            color: var(--ok);
+        }
+
+        .status.err {
+            color: var(--err);
+        }
+
+        .mono {
+            font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+            font-size: 12px;
+            color: #cbd5f1;
+        }
+
+        .muted {
+            color: var(--muted);
+        }
+
+        .sp {
+            height: 8px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            gap: 10px;
+        }
+
+        .metric {
+            background: #0f1220;
+            border: 1px solid #21283a;
+            border-radius: 12px;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .metric .label {
+            font-size: 11px;
+            color: #b7bfd6;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+        }
+
+        .metric .value {
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: .2px;
+            margin-top: 6px;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        details {
+            border: 1px solid #1e2534;
+            border-radius: 10px;
+            padding: 8px 10px;
+            background: #0e1018;
+        }
+
+        details + details {
+            margin-top: 8px;
+        }
+
+        summary {
+            cursor: pointer;
+            color: #dfe6ff;
+            font-weight: 600;
+        }
+
+        .rowline {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 6px 0;
+            border-bottom: 1px dashed #222a3a;
+        }
+
+        .rowline:last-child {
+            border-bottom: none;
+        }
+
+        .k {
+            color: #8ea3c8;
+        }
+
+        .v {
+            color: #e9edff;
+            text-align: right;
+        }
+
+        .link {
+            color: #a7c4ff;
+            text-decoration: none;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 10, 11, 0.85);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .loader {
+            border: 4px solid #222a3a;
+            border-top: 4px solid #0a66c2;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="card" id="panelData">
+        <div class="row">
+            <div>
+                <div class="title">Current Job Insights</div>
+                <div class="sub">Works on <span class="pill">linkedin.com/jobs/*</span></div>
+            </div>
+            <button id="refresh" class="btn" aria-label="Refresh job data">Refresh</button>
+        </div>
+
+        <div class="sp"></div>
+
+        <!-- Always-visible metrics -->
+        <div class="grid">
+            <div class="metric">
+                <div class="label">Applicants</div>
+                <div id="mApplies" class="value">—</div>
+            </div>
+            <div class="metric">
+                <div class="label">Views</div>
+                <div id="mViews" class="value">—</div>
+            </div>
+        </div>
+
+        <div class="sp"></div>
+        <div class="mono" id="meta">jobId: —</div>
+        <div class="sub" id="status">Ready</div>
+
+        <div class="sp"></div>
+        <div class="row">
+            <button id="openCurrent" class="btn" aria-label="Reload job">Reload job</button>
+            <a id="easyApply" class="btn link hide" href="#" target="_blank" rel="noopener" aria-label="Open Easy Apply">Open Easy Apply</a>
+        </div>
+
+        <div class="sp"></div>
+
+        <!-- Salary accordion -->
+        <details id="accSalary">
+            <summary>Salary</summary>
+            <div class="rowline">
+                <div class="k">Salary</div>
+                <div class="v" id="sSalary">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Min</div>
+                <div class="v" id="sMin">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Max</div>
+                <div class="v" id="sMax">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">~ Monthly (gross)</div>
+                <div class="v" id="sMonthly">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Source</div>
+                <div class="v" id="sSource">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Meta</div>
+                <div class="v" id="sMeta">—</div>
+            </div>
+        </details>
+
+        <!-- Dates accordion -->
+        <details id="accDates">
+            <summary>Dates</summary>
+            <div class="rowline">
+                <div class="k">Posted</div>
+                <div class="v" id="dPosted">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Expire At</div>
+                <div class="v" id="dExpire">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Application Deadline</div>
+                <div class="v" id="dDeadline">—</div>
+            </div>
+        </details>
+
+        <!-- Advanced accordion -->
+        <details id="accAdvanced">
+            <summary>Advanced</summary>
+            <div class="rowline">
+                <div class="k">Job State</div>
+                <div class="v" id="aState">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Listing Type</div>
+                <div class="v" id="aType">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Sponsored</div>
+                <div class="v" id="aSponsored">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Applied (you)</div>
+                <div class="v" id="aApplied">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Closed</div>
+                <div class="v" id="aClosed">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Remote Allowed</div>
+                <div class="v" id="aRemote">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Workplace Types</div>
+                <div class="v" id="aWorkplace">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Employment</div>
+                <div class="v" id="aEmployment">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Functions</div>
+                <div class="v" id="aFunctions">—</div>
+            </div>
+            <div class="rowline">
+                <div class="k">Industries</div>
+                <div class="v" id="aIndustries" aria-label="Industries">—</div>
+            </div>
+        </details>
+    </div>
+
+    <!-- Redirect panel -->
+    <div class="card hide" id="panelRedirect">
+        <div class="title center">Open LinkedIn Jobs</div>
+        <div class="sub center">This popup shows insights only on <span class="pill">linkedin.com/jobs/*</span></div>
+        <div class="sp"></div>
+        <div class="center">
+            <button id="goJobs" class="btn primary" aria-label="Go to LinkedIn Jobs">Go to LinkedIn Jobs</button>
+        </div>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

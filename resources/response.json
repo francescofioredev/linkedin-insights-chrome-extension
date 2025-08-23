@@ -1,843 +1,875 @@
 {
-  "data": {
-    "standardizedTitle": "urn:li:fs_title:204",
-    "companyDetails": {
-      "company": "urn:li:fs_normalized_company:18815050",
-      "*companyResolutionResult": "urn:li:fs_normalized_company:18815050",
-      "$recipeTypes": [
-        "com.linkedin.voyager.deco.jobs.web.shared.WebJobPostingCompany"
-      ],
-      "$type": "com.linkedin.voyager.jobs.JobPostingCompany"
-    },
-    "matchType": null,
-    "employmentStatus": "urn:li:fs_employmentStatus:FULL_TIME",
-    "ownerViewEnabled": false,
-    "skillMatches": null,
-    "hiringDashboardViewEnabled": false,
-    "trackingPixelUrl": null,
-    "talentHubJob": false,
-    "formattedLocation": "Italia",
-    "companyDescription": null,
-    "jobPostingUrl": "https://www.linkedin.com/jobs/view/4278775504/?trk=jobs_biz_prem_srch",
-    "applies": 121,
-    "*allJobHiringTeamMembersInjectionResult": "urn:li:fs_jobHiringTeam:4278775504",
-    "workplaceTypesResolutionResults": {
-      "*urn:li:fs_workplaceType:2": "urn:li:fs_workplaceType:2"
-    },
-    "poster": null,
-    "dashEntityUrn": "urn:li:fsd_jobPosting:4278775504",
-    "*employmentStatusResolutionResult": "urn:li:fs_employmentStatus:FULL_TIME",
-    "eligibleForLearningCourseRecsUpsell": true,
-    "eligibleForSharingProfileWithPoster": false,
-    "trustReviewDecision": null,
-    "originalListedAt": 1754042354000,
-    "entityUrn": "urn:li:fs_normalized_jobPosting:4278775504",
-    "workRemoteAllowed": true,
-    "applyMethod": {
-      "unifyApplyEnabled": true,
-      "easyApplyUrl": "https://www.linkedin.com/job-apply/4278775504",
-      "$type": "com.linkedin.voyager.jobs.ComplexOnsiteApply"
-    },
-    "benefitsDataSource": "JOB_POSTER",
-    "*savingInfo": "urn:li:fs_jobSavingInfo:4278775504",
-    "draftApplicationInfo": null,
-    "formattedJobFunctions": [
-      "Informatica"
-    ],
-    "messagingStatus": null,
-    "dashJobPostingCardUrn": "urn:li:fsd_jobPostingCard:(4278775504,JOB_DETAILS)",
-    "locationVisibility": "ADDRESS",
-    "appeal": null,
-    "expireAt": 1756634354000,
-    "$recipeTypes": [
-      "com.linkedin.voyager.deco.jobs.web.shared.WebFullJobPosting"
-    ],
-    "$type": "com.linkedin.voyager.jobs.JobPosting",
-    "standardizedAddresses": null,
-    "claimableByViewer": false,
-    "inferredBenefits": null,
-    "formattedIndustries": [
-      "Servizi IT e consulenza IT"
-    ],
-    "industries": [
-      96
-    ],
-    "salaryInsights": {
-      "lockModuleShown": false,
-      "salaryExplorerUrl": "https://www.linkedin.com/salary/",
-      "insightExists": false,
-      "jobCompensationAvailable": true,
-      "$type": "com.linkedin.voyager.premium.SalaryInsights"
-    },
-    "country": "urn:li:fs_country:it",
-    "jobPosterEntitlements": {
-      "entitledToCopyJob": false,
-      "entitledToAccessJobDashboard": false,
-      "$type": "com.linkedin.voyager.jobs.JobPosterEntitlements",
-      "entitledToViewFreeJobInfo": false,
-      "entitledToPromoteJob": false,
-      "entitledToEditJob": false,
-      "entitledToViewBillingInfo": false
-    },
-    "*applyingInfo": "urn:li:fs_jobApplyingInfo:4278775504",
-    "locationUrn": "urn:li:fs_geo:103350119",
-    "jobApplicationLimitReached": false,
-    "closedAt": null,
-    "new": false,
-    "applicantTrackingSystem": "LinkedIn",
-    "topNRelevanceReasonsInjectionResult": {
-      "*reasons": [
-        "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:4278775504,ACTIVELY_HIRING_COMPANY)"
-      ],
-      "$recipeTypes": [
-        "com.linkedin.voyager.deco.jobs.web.shared.WebAllJobPostingRelevanceReasons"
-      ],
-      "$type": "com.linkedin.voyager.jobs.relevancereasons.JobPostingRelevanceReasons"
-    },
-    "workplaceTypes": [
-      "urn:li:fs_workplaceType:2"
-    ],
-    "contentSource": "JOBS_PREMIUM_OFFLINE",
-    "postalAddress": null,
-    "messagingToken": null,
-    "formattedExperienceLevel": "Livello medio",
-    "yearsOfExperienceMatch": null,
-    "jobFunctions": [
-      "IT"
-    ],
-    "benefits": [],
-    "encryptedPricingParams": "CwIAAAGY1qDOX1i8x81NrSXUOLGiXK-b4ZbM_4NkPYYapfMyq_Jm4pilIwiaocjpgwrG4aT2234c8-KDhMmwRDxRFmW44ZxZpAH85ZxfSgdL3N45iT7RL60fQoZfRvqa8mzBY9hOYJxMU-rJwEFOTAhXtv1OP1BkrE4MrV9lsRoRhpBxs7F4mLecOh3xJBNGHJfaldgCJuZK1epZQeg3vg",
-    "jobState": "LISTED",
-    "trackingUrn": "urn:li:jobPosting:4278775504",
-    "description": {
-      "attributes": [
-        {
-          "start": 0,
-          "length": 32,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 0,
-          "length": 32,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 32,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.LineBreak"
-          },
-          "attributeKindUnion": {
-            "lineBreak": {
-              "$type": "com.linkedin.pemberly.text.LineBreak"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 32,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 42,
-          "length": 19,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 33,
-          "length": 150,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 183,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.LineBreak"
-          },
-          "attributeKindUnion": {
-            "lineBreak": {
-              "$type": "com.linkedin.pemberly.text.LineBreak"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 183,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 186,
-          "length": 14,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Italic"
-          },
-          "attributeKindUnion": {
-            "italic": {
-              "$type": "com.linkedin.pemberly.text.Italic"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 184,
-          "length": 16,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 200,
-          "length": 109,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 309,
-          "length": 93,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 402,
-          "length": 102,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 504,
-          "length": 95,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 599,
-          "length": 117,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 200,
-          "length": 516,
-          "type": {
-            "ordered": false,
-            "$type": "com.linkedin.pemberly.text.List"
-          },
-          "attributeKindUnion": {
-            "list": {
-              "ordered": false,
-              "$type": "com.linkedin.pemberly.text.List"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 716,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.LineBreak"
-          },
-          "attributeKindUnion": {
-            "lineBreak": {
-              "$type": "com.linkedin.pemberly.text.LineBreak"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 716,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 719,
-          "length": 17,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Italic"
-          },
-          "attributeKindUnion": {
-            "italic": {
-              "$type": "com.linkedin.pemberly.text.Italic"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 717,
-          "length": 19,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 736,
-          "length": 40,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 776,
-          "length": 81,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 857,
-          "length": 86,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 943,
-          "length": 67,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1010,
-          "length": 54,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1064,
-          "length": 80,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1144,
-          "length": 14,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 736,
-          "length": 422,
-          "type": {
-            "ordered": false,
-            "$type": "com.linkedin.pemberly.text.List"
-          },
-          "attributeKindUnion": {
-            "list": {
-              "ordered": false,
-              "$type": "com.linkedin.pemberly.text.List"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1158,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.LineBreak"
-          },
-          "attributeKindUnion": {
-            "lineBreak": {
-              "$type": "com.linkedin.pemberly.text.LineBreak"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1158,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1161,
-          "length": 22,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Italic"
-          },
-          "attributeKindUnion": {
-            "italic": {
-              "$type": "com.linkedin.pemberly.text.Italic"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1159,
-          "length": 24,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1199,
-          "length": 4,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1183,
-          "length": 85,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1282,
-          "length": 13,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1268,
-          "length": 76,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1384,
-          "length": 7,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1393,
-          "length": 5,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1401,
-          "length": 6,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1344,
-          "length": 150,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.ListItem"
-          },
-          "attributeKindUnion": {
-            "listItem": {
-              "$type": "com.linkedin.pemberly.text.ListItem"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1183,
-          "length": 311,
-          "type": {
-            "ordered": false,
-            "$type": "com.linkedin.pemberly.text.List"
-          },
-          "attributeKindUnion": {
-            "list": {
-              "ordered": false,
-              "$type": "com.linkedin.pemberly.text.List"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1494,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.LineBreak"
-          },
-          "attributeKindUnion": {
-            "lineBreak": {
-              "$type": "com.linkedin.pemberly.text.LineBreak"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1494,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1495,
-          "length": 9,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Bold"
-          },
-          "attributeKindUnion": {
-            "bold": {
-              "$type": "com.linkedin.pemberly.text.Bold"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1495,
-          "length": 9,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1504,
-          "length": 18,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1522,
-          "length": 63,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1585,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.LineBreak"
-          },
-          "attributeKindUnion": {
-            "lineBreak": {
-              "$type": "com.linkedin.pemberly.text.LineBreak"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1585,
-          "length": 1,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1586,
-          "length": 9,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Italic"
-          },
-          "attributeKindUnion": {
-            "italic": {
-              "$type": "com.linkedin.pemberly.text.Italic"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1586,
-          "length": 9,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1595,
-          "length": 513,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Italic"
-          },
-          "attributeKindUnion": {
-            "italic": {
-              "$type": "com.linkedin.pemberly.text.Italic"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 1595,
-          "length": 513,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        },
-        {
-          "start": 2108,
-          "length": 0,
-          "type": {
-            "$type": "com.linkedin.pemberly.text.Paragraph"
-          },
-          "attributeKindUnion": {
-            "paragraph": {
-              "$type": "com.linkedin.pemberly.text.Paragraph"
-            }
-          },
-          "$type": "com.linkedin.pemberly.text.Attribute"
-        }
-      ],
-      "text": "SOLUTION ARCHITECT I Full remote\nSei un/a SOLUTION ARCHITECT pronto/a a nuove sfide? Allora continua a leggere, perché ti stiamo cercando per una significativa opportunità di carriera\n\uD83C\uDFAF ResponsabilitàDisegnare soluzioni architetturali complesse, garantendo l’allineamento con i requisiti tecnici e di businessCoordinare le attività progettuali, supervisionando l’esecuzione dei task in ambito evolutivoCondurre attività di analisi funzionale, interfacciandosi con i team di business e i referenti tecniciGarantire l’aderenza alle specifiche architetturali durante tutto il ciclo di vita del progettoSupporto alla comprensione e validazione delle soluzioni tecniche, anche tramite lettura e interpretazione del codice\n\uD83C\uDF10 Competenze chiaveComprovata esperienza in ruoli analoghi Solida conoscenza di architetture complesse e principali pattern di system designCapacità di disegnare soluzioni software complete, senza svolgere attivamente sviluppoForte attitudine all’analisi funzionale e alla gestione progettualeBuona capacità di lettura e interpretazione del codiceOttima conoscenza dei principi architetturali e delle logiche di disegno tecnicoLingua inglese\n\uD83D\uDCBB Tecnologie e strumentiFamiliarità con Java, preferibilmente in contesti enterprise o architetture complesseConoscenza di Oracle PL/SQL per attività di disegno di soluzioni su databaseFamiliarità con framework frontend come Angular, React o Vue.js, anche solo a livello di analisi e architettura (non è richiesta attività di sviluppo)\nL’offerta● Orario full time● Modalità: full time con presenza 2 gg al mese circa su Milano\nChi siamoContrader è una società con esperienza pluriennale in ambito ICT, esperta nella realizzazione di progetti e nella consulenza aziendale ad altissima specializzazione nel settore ICT e nello sviluppo di componenti software. Abbiamo la ferma convinzione che la crescita aziendale sia strettamente legata alla capacità di anticipare i cambiamenti, esplorando strade e idee innovative. La nostra missione va infatti oltre l'offerta di soluzioni immediate e miriamo a creare risorse altamente qualificate per il futuro.",
-      "$type": "com.linkedin.pemberly.text.AttributedText"
-    },
-    "hiringTeamEntitlements": null,
-    "formattedEmploymentStatus": "A tempo pieno",
-    "repostedJobPosting": null,
-    "title": "Solution Architect I Full remote",
-    "skillsDescription": null,
-    "trustReviewSla": null,
-    "jobRegion": null,
-    "thirdPartySourced": false,
-    "views": 809,
-    "*standardizedTitleResolutionResult": "urn:li:fs_title:204",
-    "eligibleForReferrals": false,
-    "listedAt": 1754042354000,
-    "degreeMatches": null,
-    "jobPostingId": 4278775504,
-    "allowedToEdit": false,
-    "sourceDomain": null
+  "salaryInsights": {
+    "lockModuleShown": false,
+    "providedByEmployer": true,
+    "rightRailEligible": false,
+    "compensationSource": "JOB_POSTER_PROVIDED",
+    "salaryExplorerUrl": "https://www.linkedin.com/salary/",
+    "insightExists": true,
+    "jobCompensationAvailable": true,
+    "compensationBreakdown": [
+      {
+        "maxSalary": "105737.0",
+        "payPeriod": "YEARLY",
+        "minSalary": "63965.0",
+        "currencyCode": "EUR",
+        "compensationType": "BASE_SALARY"
+      }
+    ]
   },
+  "country": "urn:li:fs_country:it",
+  "jobApplicantsManagementSettingsUrn": "urn:li:fs_jobApplicantsManagementSettings:4288294341",
+  "standardizedTitle": "urn:li:fs_title:9",
+  "companyDetails": {
+    "com.linkedin.voyager.jobs.JobPostingCompany": {
+      "company": "urn:li:fs_normalized_company:3175130"
+    }
+  },
+  "jobPosterEntitlements": {
+    "entitledToPromoteJob": false,
+    "entitledToViewFreeJobInfo": false,
+    "entitledToEditJob": false,
+    "entitledToCopyJob": false,
+    "entitledToAccessJobDashboard": false,
+    "entitledToViewBillingInfo": false
+  },
+  "commuteDescription": "",
+  "listingType": "PREMIUM",
+  "employmentStatus": "urn:li:fs_employmentStatus:FULL_TIME",
+  "createdAt": 1755733471000,
+  "urlPathSegment": "software-engineer-at-bending-spoons-4288294341",
+  "locationUrn": "urn:li:fs_geo:103350119",
+  "ownerViewEnabled": false,
+  "hiringDashboardViewEnabled": false,
+  "jobApplicationLimitReached": false,
+  "preferredScreeningQuestions": [],
+  "new": false,
+  "eligibleForFreeTrialPromotion": false,
+  "talentHubJob": false,
+  "companyDescription": {
+    "attributes": [
+      {
+        "start": 45,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 46,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 235,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 236,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      }
+    ],
+    "text": "We’re out to build an all-time great company.\n\nSince 2013, we've served over a billion people across the globe through our suite of digital technology products including Brightcove, Evernote, Meetup, Remini, StreamYard, and WeTransfer.\n\nIf you're talented, driven, and collaborative, working at Bending Spoons is an opportunity to learn, make an impact, and progress your career at an exceptionally high rate."
+  },
+  "formattedLocation": "Italia",
+  "workplaceTypes": [
+    "urn:li:fs_workplaceType:2"
+  ],
+  "eligibleForBlacklistingAfterUserReportsInFlagship": false,
+  "jobPostingUrl": "https://www.linkedin.com/jobs/view/4288294341/?trk=jobs_biz_prem_srch",
+  "requiredScreeningQuestions": [],
+  "contentSource": "JOBS_PREMIUM_OFFLINE",
+  "applies": 41,
+  "formattedExperienceLevel": "Esperienza minima",
+  "jobFunctions": [
+    "ENG",
+    "IT"
+  ],
+  "applyingInfo": {
+    "entityUrn": "urn:li:fs_jobApplyingInfo:4288294341",
+    "applied": false,
+    "closed": false
+  },
+  "benefits": [],
+  "encryptedPricingParams": "CwIAAAGY1_EYJK81_QefZtX4do_zmnpSFD2IC-Ra-adcPv51tRoHOSblpRYtApwSHyWjF9mlTNeQ7E4zGEUfW-1Q3ALv7-GXZ8Vfc3fmfxDYh_quBo2_cpKWGroOqeKQ_aldKkR1WJ-Glf4zP4HCWCmkbyu4SSv7dBqZ9di7O-WSnmRAgaxnokE3vFyq6LJYkArUTqhdDVs-z2vnJLJZ1w",
+  "dashEntityUrn": "urn:li:fsd_jobPosting:4288294341",
+  "eligibleForLearningCourseRecsUpsell": true,
+  "eligibleForSharingProfileWithPoster": true,
+  "jobState": "LISTED",
+  "trackingUrn": "urn:li:jobPosting:4288294341",
+  "formattedSalaryDescription": "64 €K/yr - 105,7 €K/yr",
+  "description": {
+    "attributes": [
+      {
+        "start": 409,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 410,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 905,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 906,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1127,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1128,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1129,
+        "length": 39,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 1168,
+        "length": 20,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 1168,
+        "length": 386,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1554,
+        "length": 25,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 1554,
+        "length": 299,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1853,
+        "length": 22,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2181,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2182,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1853,
+        "length": 330,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1168,
+        "length": 1015,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 2183,
+        "length": 16,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2199,
+        "length": 18,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2199,
+        "length": 239,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2438,
+        "length": 6,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2438,
+        "length": 221,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2659,
+        "length": 12,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2659,
+        "length": 231,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2890,
+        "length": 23,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2965,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2966,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2890,
+        "length": 77,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2199,
+        "length": 768,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 2967,
+        "length": 13,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2980,
+        "length": 43,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 2980,
+        "length": 153,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 3133,
+        "length": 38,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 3133,
+        "length": 346,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 3479,
+        "length": 52,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 3479,
+        "length": 636,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 4115,
+        "length": 21,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 4414,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4415,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4115,
+        "length": 301,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2980,
+        "length": 1436,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 4437,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4416,
+        "length": 22,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 4473,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4474,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4483,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4475,
+        "length": 9,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 4521,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4522,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4544,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4523,
+        "length": 22,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 4802,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4803,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4977,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4978,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5203,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5204,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5417,
+        "length": 9,
+        "type": {
+          "com.linkedin.pemberly.text.Hyperlink": {
+            "url": "https://bndspn.com/job-accommodation-request-form"
+          }
+        },
+        "attributeKindUnion": {
+          "hyperlink": {
+            "url": "https://bndspn.com/job-accommodation-request-form"
+          }
+        }
+      },
+      {
+        "start": 5427,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5428,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5445,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5429,
+        "length": 17,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 5561,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5562,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5814,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5815,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 6251,
+        "length": 18,
+        "type": {
+          "com.linkedin.pemberly.text.Hyperlink": {
+            "url": "https://jobs.bendingspoons.com/faq#Relocation%20and%20remote%20work"
+          }
+        },
+        "attributeKindUnion": {
+          "hyperlink": {
+            "url": "https://jobs.bendingspoons.com/faq#Relocation%20and%20remote%20work"
+          }
+        }
+      },
+      {
+        "start": 6316,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 6317,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      }
+    ],
+    "text": "At Bending Spoons, we’re striving to build one of the all-time great companies. A company that serves a huge number of customers. A company where team members grow to their full potential. A company that functions at unparalleled levels of effectiveness and efficiency. A company that creates value for shareowners at an extraordinary rate. And a company that does so while adhering to high ethical standards.\n\nTo achieve this objective, we execute the following strategy: We acquire a digital business with untapped potential and make it as successful as we can by leveraging our platform—which comprises our expertise, technologies, data, brand, talents, and company culture. Then, we invest the proceeds into making our platform more powerful, and into acquiring new businesses. Thus, our strategy sees us combine an investor’s attention to capital allocation with the hands-on approach of an operator.\n\nFor a talented, driven, and collaborative individual, working at Bending Spoons is an opportunity to learn, make an impact, and progress their career at an exceptionally high rate. That’s our promise to such a candidate.\n\nA few examples of your responsibilitiesMaster your toolkit. By working across diverse tech stacks, you’ll refine your ability to choose the right tools for every challenge. From monolithic to microservices architectures, gRPC to REST APIs, Kubernetes to Docker, Python to Rust—you’ll show that true expertise isn’t about using the trendiest technologies, but about understanding their purpose to unleash their full potential.Build stuff that matters. Regardless of your seniority, you’ll enjoy plenty of autonomy and take full ownership of your work, from ideation to execution. You’ll have the unique opportunity to build software from the ground up and witness firsthand how your code evolves into a product used at scale.Simplify relentlessly. Is every component essential? Do we need this process? As a Bending Spoons engineer, your mission is to turn complexity into simplicity. Whether optimizing CI/CD pipelines, writing maintainable code, or crafting minimalist architectures, your drive to simplify will power scalable, future-proof solutions.\n\nWhat we look forReasoning ability. Given the necessary knowledge, you can solve complex problems. You think from first principles, and structure your ideas sharply. You resist the influence of biases. You identify and take care of the details that matter.Drive. You’re extremely ambitious in everything you do—and your initiative, effort, and tenacity match the intensity of your ambition. You feel deeply responsible for your work. You hold yourself to a high—and rising—bar.Team spirit. You give generously and without the expectation of receiving in return. You support the best idea, not your idea. You're always happy to get your hands dirty to help your team. You’re reliable, honest, and transparent.Proficiency in English. You read, write, and speak proficiently in English.\n\nWhat we offerIncredibly talented, entrepreneurial teams. You’ll work in small, result-oriented, autonomous teams alongside some of the brightest people in your field.An exceptional opportunity for growth. We go to great lengths to hire individuals of outstanding potential—then, our priority is to put them in the ideal position to thrive. Spooners in their 20s lead products worth hundreds of millions of dollars. And if you’ve got what it takes, you’ll soon be playing an essential role in major projects, too.Competitive pay and access to equity in the company. Typically, we offer an individual at the start of their career a salary of £66,779 in the UK and €63,965 elsewhere. For a candidate that we assess as possessing considerable relevant experience, the salary on offer tends to be between £110,389 and £149,636 in the UK, and €105,737 and €143,330 elsewhere. Pay grows rapidly as you accumulate experience and translate it into greater impact. You can also receive some of your pay in company equity at a discounted price, thus participating in the value creation we achieve together. If relocating to Italy, you may enjoy a 50% tax cut.All. These. Benefits. Flexible hours, remote working, unlimited backing for learning and training, top-of-the-market health insurance, a rich relocation package, generous parental support, and a yearly retreat to a stunning location. We help each Spooner set up the conditions to do their best work.\n\nCommitment & contract\nPermanent or fixed-term. Full-time.\n\nLocation\nMilan (Italy), London (UK) or remote.\n\nThe selection process\nIf you pass our screening, we’ll ask you to take on a few tests designed to assess how you approach unfamiliar problems. They’re challenging and may take several hours to complete. If you’re successful with those, we’ll invite you to a series of interviews.\n\nWe set the bar high and won't extend an offer until we're convinced we've found the right candidate. This is why a job may stay open for months or be reposted several times.\n\nStudies suggest that women tend not to apply for a job if their CV isn’t a perfect fit. Here, talent takes precedence over experience. So if you like the role and think you could be awesome at it in time, go ahead and apply.\n\nBending Spoons is an equal opportunity and affirmative action employer. We consider for employment any applicant and provide reasonable accommodations for an individual with disabilities—just let us know through this form.\n\nBefore you apply\nIf you’ve applied before but didn't receive an offer, we recommend waiting at least one year before applying again.\n\nBending Spoons is a demanding environment. We’re extremely ambitious and we hold ourselves—and one another—to a high standard. While this tends to lead to extraordinary learning, achievement, and career growth, it also requires significant commitment.\n\nTo help you ramp up quickly and set yourself up for success, we recommend spending your first few months working from our Milan office, regardless of your long-term work location. It’s the best way to rapidly absorb our company culture and build trust with your new teammates. We’ll support you with generous travel and accommodation assistance. After that, you’re welcome to work from our offices in Milan or London, or remotely from approved countries—depending on what we agree at the offer stage.\n\nIf the role speaks to you and you’re excited to give your best, we’d love to hear from you. Apply now—we can’t wait to meet you."
+  },
+  "formattedEmploymentStatus": "A tempo pieno",
+  "title": "Software Engineer",
+  "originalListedAt": 1755733472000,
+  "localizedCostPerApplicantChargeableRegion": "Unione Europea",
+  "skillsDescription": {
+    "attributes": [],
+    "text": "Algorithms, Attention to Detail, Code Refactoring, Computer Science, Debugging, Optimization, Problem Solving, Reasoning Skills, Software Development, Software Engineers"
+  },
+  "entityUrn": "urn:li:fs_normalized_jobPosting:4288294341",
+  "workRemoteAllowed": true,
+  "briefBenefitsDescription": "",
+  "applyMethod": {
+    "com.linkedin.voyager.jobs.OffsiteApply": {
+      "applyStartersPreferenceVoid": false,
+      "companyApplyUrl": "https://jobs.bendingspoons.com/positions/658c459fe3a0e8a03d2fb86d?utm_medium=job_post&utm_source=linkedin&utm_campaign=68a64575596d5b5a03805073",
+      "inPageOffsiteApply": false
+    }
+  },
+  "thirdPartySourced": false,
+  "benefitsDataSource": "JOB_POSTER",
+  "views": 265,
+  "savingInfo": {
+    "saved": false,
+    "entityUrn": "urn:li:fs_jobSavingInfo:4288294341",
+    "dashSaveStateUrn": "urn:li:fsd_saveState:(SAVE,urn:li:fsd_jobPosting:4288294341)"
+  },
+  "eligibleForReferrals": false,
+  "formattedJobFunctions": [
+    "Ingegneria",
+    "Informatica"
+  ],
+  "dashJobPostingCardUrn": "urn:li:fsd_jobPostingCard:(4288294341,JOB_DETAILS)",
+  "locationVisibility": "ADDRESS",
+  "sponsored": false,
+  "expireAt": 1758327110000,
+  "listedAt": 1755735110000,
+  "videoIntroSetupText": "Ho letto la tua candidatura per il ruolo di Software Engineer presso Bending Spoons e il tuo background mi ha davvero colpito. Ora vorrei invitarti a rispondere ad alcune domande con una breve video presentazione, o anche per iscritto. Preferirei un video perché ci aiuterebbe a farci un’idea del tuo stile di comunicazione verbale. Se hai domande, scrivimi pure.",
+  "claimableByViewer": false,
+  "jobPostingId": 4288294341,
+  "scheduleDescription": "",
+  "formattedIndustries": [
+    "Sviluppo di software"
+  ],
+  "industries": [
+    4
+  ],
+  "allowedToEdit": false,
+  "sourceDomain": "jobs.bendingspoons.com",
+  "openToHiringJobSharingState": "NOT_SHARED"
 }

@@ -1,192 +1,110 @@
 // content.js
-// Injects 'injected.js' into the page context, listens for captured JSON, extracts applicant counts,
-// and renders a floating badge. Stores last values in chrome.storage.local.
-
 (() => {
+    "use strict";
+    const LOG = "[LI applies][content]";
 
-    // --- Inject the page-context script (needed to patch window.fetch / XHR) ---
-    const script = document.createElement('script');
-    script.src = chrome.runtime.getURL('injected.js');
-    console.log('[LinkedInExt] URL injected.js:', script.src); // Debug log per URL
-    script.async = false;
-    script.onload = () => script.remove();
-    (document.head || document.documentElement).appendChild(script);
+    // Inietta lo script in-page (una volta)
+    (function injectOnce() {
+        if (document.documentElement.dataset.liAppliesInjected === "1") return;
+        const s = document.createElement("script");
+        s.src = chrome.runtime.getURL("injected.js");
+        s.async = false;
+        s.onload = () => s.remove();
+        (document.head || document.documentElement).appendChild(s);
+        document.documentElement.dataset.liAppliesInjected = "1";
+        console.debug(LOG, "injected.js injected");
+    })();
 
-    // --- Simple settings (extend as needed) ---
-    const DEFAULT_SETTINGS = {logging: true, enabled: true};
-    let settings = {...DEFAULT_SETTINGS};
-    let settingsLoaded = false;
-
-    // Caricamento asincrono delle impostazioni
-    chrome.storage?.local?.get({settings: DEFAULT_SETTINGS}, ({settings: s}) => {
-        settings = {...DEFAULT_SETTINGS, ...(s || {})};
-        settingsLoaded = true;
-        log('Impostazioni caricate:', settings);
-    });
-
-    // --- Logging helper ---
-    function log(...args) {
-        if (settings.logging) {
-            console.log('[LinkedInExt]', ...args);
-        }
-    }
-
-    // --- Helpers ---
-    const urlIsInteresting = (url) => {
+    // Helpers per identificare il jobId
+    function getJobIdFromQuery() {
         try {
-            const u = new URL(url, location.origin);
-            if (!u.hostname.match(/(^|\.)linkedin\.com$/i)) return false;
-            // Interessa solo la specifica API dei job postings
-            return u.pathname.startsWith('/voyager/api/jobs/jobPostings');
-        } catch (e) {
-            log('Errore parsing URL:', url, e);
-            return false;
-        }
-    };
-
-    // Prefer direct known paths here if you discover them in your account payloads
-    function extractAppliesPreferExact(obj) {
-        try {
-            const res = obj?.data?.applies ?? obj?.applies ?? null;
-            log('extractAppliesPreferExact:', res);
-            return res;
-        } catch (e) {
-            log('Errore in extractAppliesPreferExact:', e);
+            return new URL(location.href).searchParams.get("currentJobId");
+        } catch {
             return null;
         }
     }
 
-    // Generic recursive extractor: looks for numeric value attached to "applicants"ish keys
-    const KEY_REGEX = /(applicants?|applies|application(count|s)|appliedCount|totalApplicants?|numApplicants?)/i;
-
-    function extractAppliesGeneric(value) {
-        let found = null;
-
-        function visit(v, keyHint) {
-            if (found !== null) return;
-            if (v == null) return;
-            const keyIsPromising = keyHint && KEY_REGEX.test(keyHint);
-            if (typeof v === 'number' && Number.isFinite(v)) {
-                if (keyIsPromising || (v >= 0 && v < 1e6)) {
-                    found = v;
-                    log('Trovato valore numerico:', found, 'per chiave', keyHint);
-                    return;
-                }
-            }
-            if (typeof v === 'string') {
-                const m = v.match(/(\d{1,6})/);
-                if (m) {
-                    found = parseInt(m[1], 10);
-                    log('Trovato valore stringa:', found, 'per chiave', keyHint);
-                    return;
-                }
-            }
-            if (Array.isArray(v)) {
-                for (const el of v) {
-                    visit(el, null);
-                }
-                return;
-            }
-            if (typeof v === 'object') {
-                for (const [k, val] of Object.entries(v)) {
-                    if (KEY_REGEX.test(k)) {
-                        if (typeof val === 'number' && Number.isFinite(val)) {
-                            found = val;
-                            log('Trovato valore diretto:', found, 'per chiave', k);
-                            return;
-                        }
-                        if (typeof val === 'string') {
-                            const m = val.match(/(\d{1,6})/);
-                            if (m) {
-                                found = parseInt(m[1], 10);
-                                log('Trovato valore diretto stringa:', found, 'per chiave', k);
-                                return;
-                            }
-                        }
-                    }
-                }
-                for (const [k, val] of Object.entries(v)) {
-                    visit(val, k);
-                }
-            }
-        }
-
-        visit(value, null);
-        return found;
-    }
-
-    function extractApplies(obj) {
-        return extractAppliesPreferExact(obj) ?? extractAppliesGeneric(obj);
-    }
-
-    // UI badge
-    function upsertBadge(value) {
-        let badge = document.getElementById('li-job-applies-badge');
-        if (!badge) {
-            badge = document.createElement('div');
-            badge.id = 'li-job-applies-badge';
-            Object.assign(badge.style, {
-                position: 'fixed',
-                right: '12px',
-                bottom: '12px',
-                zIndex: '2147483647',
-                padding: '8px 12px',
-                background: '#0a66c2',
-                color: 'white',
-                borderRadius: '999px',
-                fontFamily: 'system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif',
-                fontSize: '13px',
-                boxShadow: '0 6px 18px rgba(0,0,0,0.2)',
-                cursor: 'default',
-                userSelect: 'none',
-                lineHeight: '1'
-            });
-            document.body.appendChild(badge);
-        }
-        badge.textContent = (value != null) ? `Applicants: ${value}` : `Applicants: n/d`;
-    }
-
-    function getJobIdFromUrl() {
-        const m = location.pathname.match(/\/jobs\/view\/(\d+)/);
+    function getJobIdFromPath() {
+        const m = location.pathname.match(/\/jobs\/view\/(\d+)/i);
         return m ? m[1] : null;
     }
 
-    // Cache latest values per jobId
-    const cache = new Map();
+    function getJobIdFromDom() {
+        const byData = document.querySelector("[data-job-id]");
+        if (byData) {
+            const v = byData.getAttribute("data-job-id");
+            if (v && /^\d+$/.test(v)) return v;
+        }
+        const byUrn = document.querySelector('[data-entity-urn*="urn:li:jobPosting:"]');
+        if (byUrn) {
+            const urn = byUrn.getAttribute("data-entity-urn") || "";
+            const m = urn.match(/urn:li:jobPosting:(\d+)/);
+            if (m) return m[1];
+        }
+        const a = document.querySelector('a[href*="/jobs/view/"]');
+        if (a) {
+            const m = a.getAttribute("href")?.match(/\/jobs\/view\/(\d+)/);
+            if (m) return m[1];
+        }
+        return null;
+    }
 
-    // Listen for captured responses from injected.js
-    window.addEventListener('message', (ev) => {
-        if (!ev.data || ev.data.type !== 'LI_FETCH_CAPTURED') return;
-        const {url, ok, contentType, body} = ev.data.detail || {};
-        log('Evento ricevuto:', {url, ok, contentType});
-        const interesting = urlIsInteresting(url);
-        log('urlIsInteresting:', interesting);
-        if (!ok || !url || !interesting || !contentType) return;
+    function getCurrentJobId() {
+        return getJobIdFromQuery() || getJobIdFromPath() || getJobIdFromDom();
+    }
 
-        if (settings.logging) {
-            try {
-                log('Hit:', {url, sample: JSON.stringify(body).slice(0, 400)});
-            } catch {}
+    // Richiesta a injected.js + risposta al popup
+    function fetchJobData(jobId, sendResponse) {
+        const timeoutMs = 12000;
+        let done = false;
+
+        const handleResult = (ev) => {
+            if (done) return;
+            const {ok, error, data, status, csrfPresent} = ev.detail || {};
+            done = true;
+            window.removeEventListener("LI_DIRECT_RESULT", handleResult);
+            if (!ok) {
+                console.warn(LOG, "Fetch failed:", error);
+                sendResponse({ok: false, error, status, csrfPresent, jobId});
+            } else {
+                console.log(LOG, "Fetch ok for jobId", jobId, "status", status);
+                sendResponse({ok: true, data, status, csrfPresent, jobId});
+            }
+        };
+
+        const timer = setTimeout(() => {
+            if (done) return;
+            done = true;
+            window.removeEventListener("LI_DIRECT_RESULT", handleResult);
+            console.warn(LOG, "Timeout waiting job data");
+            sendResponse({ok: false, error: "Timeout", status: 0, csrfPresent: null, jobId});
+        }, timeoutMs);
+
+        window.addEventListener("LI_DIRECT_RESULT", (ev) => {
+            clearTimeout(timer);
+            handleResult(ev);
+        }, {once: true});
+
+        console.log(LOG, "Requesting LI_DIRECT_FETCH for", jobId);
+        window.dispatchEvent(new CustomEvent("LI_DIRECT_FETCH", {detail: {jobId, topN: 1}}));
+    }
+
+    // Listener per richieste dal popup
+    chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
+        if (msg?.type !== "GET_JOB_DETAILS") return; // ignore other messages
+
+        if (!location.pathname.startsWith("/jobs/")) {
+            sendResponse({ok: false, error: "Not a /jobs/ page"});
+            return true;
         }
 
-        const applies = extractApplies(body);
-        if (applies == null) return;
+        const jobId = getCurrentJobId();
+        if (!jobId) {
+            sendResponse({ok: false, error: "No jobId on this page"});
+            return true;
+        }
 
-        const jobId = getJobIdFromUrl() || '__page__';
-        cache.set(jobId, applies);
-        upsertBadge(applies);
-
-        try {
-            chrome.storage?.local?.set({[`applies:${jobId}`]: {applies, at: Date.now(), url: location.href}});
-        } catch {}
+        fetchJobData(jobId, sendResponse);
+        return true; // keep the message channel open (async response)
     });
-
-    // Handle SPA navigation: when DOM changes, re-show cached badge for current job
-    const mo = new MutationObserver(() => {
-        const jobId = getJobIdFromUrl();
-        const cached = jobId ? cache.get(jobId) : null;
-        if (cached != null) upsertBadge(cached);
-    });
-    mo.observe(document.documentElement, {childList: true, subtree: true});
-
 })();

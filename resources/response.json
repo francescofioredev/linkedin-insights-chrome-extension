@@ -1,0 +1,843 @@
+{
+  "data": {
+    "standardizedTitle": "urn:li:fs_title:204",
+    "companyDetails": {
+      "company": "urn:li:fs_normalized_company:18815050",
+      "*companyResolutionResult": "urn:li:fs_normalized_company:18815050",
+      "$recipeTypes": [
+        "com.linkedin.voyager.deco.jobs.web.shared.WebJobPostingCompany"
+      ],
+      "$type": "com.linkedin.voyager.jobs.JobPostingCompany"
+    },
+    "matchType": null,
+    "employmentStatus": "urn:li:fs_employmentStatus:FULL_TIME",
+    "ownerViewEnabled": false,
+    "skillMatches": null,
+    "hiringDashboardViewEnabled": false,
+    "trackingPixelUrl": null,
+    "talentHubJob": false,
+    "formattedLocation": "Italia",
+    "companyDescription": null,
+    "jobPostingUrl": "https://www.linkedin.com/jobs/view/4278775504/?trk=jobs_biz_prem_srch",
+    "applies": 121,
+    "*allJobHiringTeamMembersInjectionResult": "urn:li:fs_jobHiringTeam:4278775504",
+    "workplaceTypesResolutionResults": {
+      "*urn:li:fs_workplaceType:2": "urn:li:fs_workplaceType:2"
+    },
+    "poster": null,
+    "dashEntityUrn": "urn:li:fsd_jobPosting:4278775504",
+    "*employmentStatusResolutionResult": "urn:li:fs_employmentStatus:FULL_TIME",
+    "eligibleForLearningCourseRecsUpsell": true,
+    "eligibleForSharingProfileWithPoster": false,
+    "trustReviewDecision": null,
+    "originalListedAt": 1754042354000,
+    "entityUrn": "urn:li:fs_normalized_jobPosting:4278775504",
+    "workRemoteAllowed": true,
+    "applyMethod": {
+      "unifyApplyEnabled": true,
+      "easyApplyUrl": "https://www.linkedin.com/job-apply/4278775504",
+      "$type": "com.linkedin.voyager.jobs.ComplexOnsiteApply"
+    },
+    "benefitsDataSource": "JOB_POSTER",
+    "*savingInfo": "urn:li:fs_jobSavingInfo:4278775504",
+    "draftApplicationInfo": null,
+    "formattedJobFunctions": [
+      "Informatica"
+    ],
+    "messagingStatus": null,
+    "dashJobPostingCardUrn": "urn:li:fsd_jobPostingCard:(4278775504,JOB_DETAILS)",
+    "locationVisibility": "ADDRESS",
+    "appeal": null,
+    "expireAt": 1756634354000,
+    "$recipeTypes": [
+      "com.linkedin.voyager.deco.jobs.web.shared.WebFullJobPosting"
+    ],
+    "$type": "com.linkedin.voyager.jobs.JobPosting",
+    "standardizedAddresses": null,
+    "claimableByViewer": false,
+    "inferredBenefits": null,
+    "formattedIndustries": [
+      "Servizi IT e consulenza IT"
+    ],
+    "industries": [
+      96
+    ],
+    "salaryInsights": {
+      "lockModuleShown": false,
+      "salaryExplorerUrl": "https://www.linkedin.com/salary/",
+      "insightExists": false,
+      "jobCompensationAvailable": true,
+      "$type": "com.linkedin.voyager.premium.SalaryInsights"
+    },
+    "country": "urn:li:fs_country:it",
+    "jobPosterEntitlements": {
+      "entitledToCopyJob": false,
+      "entitledToAccessJobDashboard": false,
+      "$type": "com.linkedin.voyager.jobs.JobPosterEntitlements",
+      "entitledToViewFreeJobInfo": false,
+      "entitledToPromoteJob": false,
+      "entitledToEditJob": false,
+      "entitledToViewBillingInfo": false
+    },
+    "*applyingInfo": "urn:li:fs_jobApplyingInfo:4278775504",
+    "locationUrn": "urn:li:fs_geo:103350119",
+    "jobApplicationLimitReached": false,
+    "closedAt": null,
+    "new": false,
+    "applicantTrackingSystem": "LinkedIn",
+    "topNRelevanceReasonsInjectionResult": {
+      "*reasons": [
+        "urn:li:fs_jobPostingRelevanceReason:(urn:li:fs_normalized_jobPosting:4278775504,ACTIVELY_HIRING_COMPANY)"
+      ],
+      "$recipeTypes": [
+        "com.linkedin.voyager.deco.jobs.web.shared.WebAllJobPostingRelevanceReasons"
+      ],
+      "$type": "com.linkedin.voyager.jobs.relevancereasons.JobPostingRelevanceReasons"
+    },
+    "workplaceTypes": [
+      "urn:li:fs_workplaceType:2"
+    ],
+    "contentSource": "JOBS_PREMIUM_OFFLINE",
+    "postalAddress": null,
+    "messagingToken": null,
+    "formattedExperienceLevel": "Livello medio",
+    "yearsOfExperienceMatch": null,
+    "jobFunctions": [
+      "IT"
+    ],
+    "benefits": [],
+    "encryptedPricingParams": "CwIAAAGY1qDOX1i8x81NrSXUOLGiXK-b4ZbM_4NkPYYapfMyq_Jm4pilIwiaocjpgwrG4aT2234c8-KDhMmwRDxRFmW44ZxZpAH85ZxfSgdL3N45iT7RL60fQoZfRvqa8mzBY9hOYJxMU-rJwEFOTAhXtv1OP1BkrE4MrV9lsRoRhpBxs7F4mLecOh3xJBNGHJfaldgCJuZK1epZQeg3vg",
+    "jobState": "LISTED",
+    "trackingUrn": "urn:li:jobPosting:4278775504",
+    "description": {
+      "attributes": [
+        {
+          "start": 0,
+          "length": 32,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 0,
+          "length": 32,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 32,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.LineBreak"
+          },
+          "attributeKindUnion": {
+            "lineBreak": {
+              "$type": "com.linkedin.pemberly.text.LineBreak"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 32,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 42,
+          "length": 19,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 33,
+          "length": 150,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 183,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.LineBreak"
+          },
+          "attributeKindUnion": {
+            "lineBreak": {
+              "$type": "com.linkedin.pemberly.text.LineBreak"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 183,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 186,
+          "length": 14,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Italic"
+          },
+          "attributeKindUnion": {
+            "italic": {
+              "$type": "com.linkedin.pemberly.text.Italic"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 184,
+          "length": 16,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 200,
+          "length": 109,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 309,
+          "length": 93,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 402,
+          "length": 102,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 504,
+          "length": 95,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 599,
+          "length": 117,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 200,
+          "length": 516,
+          "type": {
+            "ordered": false,
+            "$type": "com.linkedin.pemberly.text.List"
+          },
+          "attributeKindUnion": {
+            "list": {
+              "ordered": false,
+              "$type": "com.linkedin.pemberly.text.List"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 716,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.LineBreak"
+          },
+          "attributeKindUnion": {
+            "lineBreak": {
+              "$type": "com.linkedin.pemberly.text.LineBreak"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 716,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 719,
+          "length": 17,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Italic"
+          },
+          "attributeKindUnion": {
+            "italic": {
+              "$type": "com.linkedin.pemberly.text.Italic"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 717,
+          "length": 19,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 736,
+          "length": 40,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 776,
+          "length": 81,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 857,
+          "length": 86,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 943,
+          "length": 67,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1010,
+          "length": 54,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1064,
+          "length": 80,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1144,
+          "length": 14,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 736,
+          "length": 422,
+          "type": {
+            "ordered": false,
+            "$type": "com.linkedin.pemberly.text.List"
+          },
+          "attributeKindUnion": {
+            "list": {
+              "ordered": false,
+              "$type": "com.linkedin.pemberly.text.List"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1158,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.LineBreak"
+          },
+          "attributeKindUnion": {
+            "lineBreak": {
+              "$type": "com.linkedin.pemberly.text.LineBreak"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1158,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1161,
+          "length": 22,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Italic"
+          },
+          "attributeKindUnion": {
+            "italic": {
+              "$type": "com.linkedin.pemberly.text.Italic"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1159,
+          "length": 24,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1199,
+          "length": 4,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1183,
+          "length": 85,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1282,
+          "length": 13,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1268,
+          "length": 76,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1384,
+          "length": 7,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1393,
+          "length": 5,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1401,
+          "length": 6,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1344,
+          "length": 150,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.ListItem"
+          },
+          "attributeKindUnion": {
+            "listItem": {
+              "$type": "com.linkedin.pemberly.text.ListItem"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1183,
+          "length": 311,
+          "type": {
+            "ordered": false,
+            "$type": "com.linkedin.pemberly.text.List"
+          },
+          "attributeKindUnion": {
+            "list": {
+              "ordered": false,
+              "$type": "com.linkedin.pemberly.text.List"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1494,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.LineBreak"
+          },
+          "attributeKindUnion": {
+            "lineBreak": {
+              "$type": "com.linkedin.pemberly.text.LineBreak"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1494,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1495,
+          "length": 9,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Bold"
+          },
+          "attributeKindUnion": {
+            "bold": {
+              "$type": "com.linkedin.pemberly.text.Bold"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1495,
+          "length": 9,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1504,
+          "length": 18,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1522,
+          "length": 63,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1585,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.LineBreak"
+          },
+          "attributeKindUnion": {
+            "lineBreak": {
+              "$type": "com.linkedin.pemberly.text.LineBreak"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1585,
+          "length": 1,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1586,
+          "length": 9,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Italic"
+          },
+          "attributeKindUnion": {
+            "italic": {
+              "$type": "com.linkedin.pemberly.text.Italic"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1586,
+          "length": 9,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1595,
+          "length": 513,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Italic"
+          },
+          "attributeKindUnion": {
+            "italic": {
+              "$type": "com.linkedin.pemberly.text.Italic"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 1595,
+          "length": 513,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        },
+        {
+          "start": 2108,
+          "length": 0,
+          "type": {
+            "$type": "com.linkedin.pemberly.text.Paragraph"
+          },
+          "attributeKindUnion": {
+            "paragraph": {
+              "$type": "com.linkedin.pemberly.text.Paragraph"
+            }
+          },
+          "$type": "com.linkedin.pemberly.text.Attribute"
+        }
+      ],
+      "text": "SOLUTION ARCHITECT I Full remote\nSei un/a SOLUTION ARCHITECT pronto/a a nuove sfide? Allora continua a leggere, perché ti stiamo cercando per una significativa opportunità di carriera\n\uD83C\uDFAF ResponsabilitàDisegnare soluzioni architetturali complesse, garantendo l’allineamento con i requisiti tecnici e di businessCoordinare le attività progettuali, supervisionando l’esecuzione dei task in ambito evolutivoCondurre attività di analisi funzionale, interfacciandosi con i team di business e i referenti tecniciGarantire l’aderenza alle specifiche architetturali durante tutto il ciclo di vita del progettoSupporto alla comprensione e validazione delle soluzioni tecniche, anche tramite lettura e interpretazione del codice\n\uD83C\uDF10 Competenze chiaveComprovata esperienza in ruoli analoghi Solida conoscenza di architetture complesse e principali pattern di system designCapacità di disegnare soluzioni software complete, senza svolgere attivamente sviluppoForte attitudine all’analisi funzionale e alla gestione progettualeBuona capacità di lettura e interpretazione del codiceOttima conoscenza dei principi architetturali e delle logiche di disegno tecnicoLingua inglese\n\uD83D\uDCBB Tecnologie e strumentiFamiliarità con Java, preferibilmente in contesti enterprise o architetture complesseConoscenza di Oracle PL/SQL per attività di disegno di soluzioni su databaseFamiliarità con framework frontend come Angular, React o Vue.js, anche solo a livello di analisi e architettura (non è richiesta attività di sviluppo)\nL’offerta● Orario full time● Modalità: full time con presenza 2 gg al mese circa su Milano\nChi siamoContrader è una società con esperienza pluriennale in ambito ICT, esperta nella realizzazione di progetti e nella consulenza aziendale ad altissima specializzazione nel settore ICT e nello sviluppo di componenti software. Abbiamo la ferma convinzione che la crescita aziendale sia strettamente legata alla capacità di anticipare i cambiamenti, esplorando strade e idee innovative. La nostra missione va infatti oltre l'offerta di soluzioni immediate e miriamo a creare risorse altamente qualificate per il futuro.",
+      "$type": "com.linkedin.pemberly.text.AttributedText"
+    },
+    "hiringTeamEntitlements": null,
+    "formattedEmploymentStatus": "A tempo pieno",
+    "repostedJobPosting": null,
+    "title": "Solution Architect I Full remote",
+    "skillsDescription": null,
+    "trustReviewSla": null,
+    "jobRegion": null,
+    "thirdPartySourced": false,
+    "views": 809,
+    "*standardizedTitleResolutionResult": "urn:li:fs_title:204",
+    "eligibleForReferrals": false,
+    "listedAt": 1754042354000,
+    "degreeMatches": null,
+    "jobPostingId": 4278775504,
+    "allowedToEdit": false,
+    "sourceDomain": null
+  },
+}

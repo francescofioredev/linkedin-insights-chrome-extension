@@ -1,28 +1,16 @@
 {
   "salaryInsights": {
     "lockModuleShown": false,
-    "providedByEmployer": true,
-    "rightRailEligible": false,
-    "compensationSource": "JOB_POSTER_PROVIDED",
     "salaryExplorerUrl": "https://www.linkedin.com/salary/",
-    "insightExists": true,
-    "jobCompensationAvailable": true,
-    "compensationBreakdown": [
-      {
-        "maxSalary": "105737.0",
-        "payPeriod": "YEARLY",
-        "minSalary": "63965.0",
-        "currencyCode": "EUR",
-        "compensationType": "BASE_SALARY"
-      }
-    ]
+    "insightExists": false,
+    "jobCompensationAvailable": true
   },
   "country": "urn:li:fs_country:it",
-  "jobApplicantsManagementSettingsUrn": "urn:li:fs_jobApplicantsManagementSettings:4288294341",
-  "standardizedTitle": "urn:li:fs_title:9",
+  "jobApplicantsManagementSettingsUrn": "urn:li:fs_jobApplicantsManagementSettings:4254510878",
+  "standardizedTitle": "urn:li:fs_title:22848",
   "companyDetails": {
     "com.linkedin.voyager.jobs.JobPostingCompany": {
-      "company": "urn:li:fs_normalized_company:3175130"
+      "company": "urn:li:fs_normalized_company:9434927"
     }
   },
   "jobPosterEntitlements": {
@@ -36,20 +24,31 @@
   "commuteDescription": "",
   "listingType": "PREMIUM",
   "employmentStatus": "urn:li:fs_employmentStatus:FULL_TIME",
-  "createdAt": 1755733471000,
-  "urlPathSegment": "software-engineer-at-bending-spoons-4288294341",
+  "createdAt": 1750519694000,
+  "urlPathSegment": "senior-site-reliability-engineer-google-cloud-platform-(gcp)-at-leadtech-group-4254510878",
   "locationUrn": "urn:li:fs_geo:103350119",
   "ownerViewEnabled": false,
   "hiringDashboardViewEnabled": false,
   "jobApplicationLimitReached": false,
   "preferredScreeningQuestions": [],
+  "applicantTrackingSystem": "Workable",
   "new": false,
   "eligibleForFreeTrialPromotion": false,
   "talentHubJob": false,
   "companyDescription": {
     "attributes": [
       {
-        "start": 45,
+        "start": 0,
+        "length": 145,
+        "type": {
+          "com.linkedin.pemberly.text.Paragraph": {}
+        },
+        "attributeKindUnion": {
+          "paragraph": {}
+        }
+      },
+      {
+        "start": 145,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -59,7 +58,17 @@
         }
       },
       {
-        "start": 46,
+        "start": 145,
+        "length": 153,
+        "type": {
+          "com.linkedin.pemberly.text.Paragraph": {}
+        },
+        "attributeKindUnion": {
+          "paragraph": {}
+        }
+      },
+      {
+        "start": 299,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -69,7 +78,7 @@
         }
       },
       {
-        "start": 235,
+        "start": 300,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -79,49 +88,128 @@
         }
       },
       {
-        "start": 236,
+        "start": 457,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
         },
         "attributeKindUnion": {
           "lineBreak": {}
+        }
+      },
+      {
+        "start": 458,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 298,
+        "length": 317,
+        "type": {
+          "com.linkedin.pemberly.text.Paragraph": {}
+        },
+        "attributeKindUnion": {
+          "paragraph": {}
+        }
+      },
+      {
+        "start": 669,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 670,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 615,
+        "length": 241,
+        "type": {
+          "com.linkedin.pemberly.text.Paragraph": {}
+        },
+        "attributeKindUnion": {
+          "paragraph": {}
+        }
+      },
+      {
+        "start": 856,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 856,
+        "length": 147,
+        "type": {
+          "com.linkedin.pemberly.text.Paragraph": {}
+        },
+        "attributeKindUnion": {
+          "paragraph": {}
         }
       }
     ],
-    "text": "We’re out to build an all-time great company.\n\nSince 2013, we've served over a billion people across the globe through our suite of digital technology products including Brightcove, Evernote, Meetup, Remini, StreamYard, and WeTransfer.\n\nIf you're talented, driven, and collaborative, working at Bending Spoons is an opportunity to learn, make an impact, and progress your career at an exceptionally high rate."
+    "text": "At Leadtech, we work hard... and play harder! Our mission is to empower clients and employees to achieve its goals in the online business world. \nSince 2009, we have been fostering innovative and creative techniques across a multitude of industries, making us pioneers in online project management. \n\nLeadtech is dedicated to constant improvement, as well as inspiring new ideas and methods daily, for both the world in which we live and the future to come.\n\nWe think big... and work bigger, and that's why we do business internationally with over 750 passionate professionals who speak over 15 languages fluently. A global team of focused experts in a range of fields:\n\nWe analyze, we socialize, we write, we code, we design, we calculate, we decide, we collaborate, we generate, we engage, we program, we create... The real question is what don't we do?!\nWith a truly modern approach to company culture, our values, diversity, flexibility and an active work-play balance are what make Leadtech unique."
   },
   "formattedLocation": "Italia",
   "workplaceTypes": [
     "urn:li:fs_workplaceType:2"
   ],
   "eligibleForBlacklistingAfterUserReportsInFlagship": false,
-  "jobPostingUrl": "https://www.linkedin.com/jobs/view/4288294341/?trk=jobs_biz_prem_srch",
+  "jobPostingUrl": "https://www.linkedin.com/jobs/view/4254510878/?trk=jobs_biz_prem_srch",
   "requiredScreeningQuestions": [],
   "contentSource": "JOBS_PREMIUM_OFFLINE",
-  "applies": 41,
-  "formattedExperienceLevel": "Esperienza minima",
+  "applies": 0,
+  "formattedExperienceLevel": "Livello medio-alto",
   "jobFunctions": [
-    "ENG",
-    "IT"
+    "OTHR"
   ],
   "applyingInfo": {
-    "entityUrn": "urn:li:fs_jobApplyingInfo:4288294341",
+    "entityUrn": "urn:li:fs_jobApplyingInfo:4254510878",
     "applied": false,
     "closed": false
   },
   "benefits": [],
-  "encryptedPricingParams": "CwIAAAGY1_EYJK81_QefZtX4do_zmnpSFD2IC-Ra-adcPv51tRoHOSblpRYtApwSHyWjF9mlTNeQ7E4zGEUfW-1Q3ALv7-GXZ8Vfc3fmfxDYh_quBo2_cpKWGroOqeKQ_aldKkR1WJ-Glf4zP4HCWCmkbyu4SSv7dBqZ9di7O-WSnmRAgaxnokE3vFyq6LJYkArUTqhdDVs-z2vnJLJZ1w",
-  "dashEntityUrn": "urn:li:fsd_jobPosting:4288294341",
+  "encryptedPricingParams": "CwIAAAGY3S6ujC5Pg3Pep8vKS4-y9Qf1rRwZchGsHdoJvTqiyMJDgYi-iFB2Kv2uA7S6zrLSU_7ujtd3qMrwLNPpISoLtf22qfyg2HL6DLQ6tRJPkkYNIPnQgkyEcm8FmD7HjEyjcWVsjTiuArvgvRrobFd-zCTRYtDXRv7qpgDfYRxpDsFJLxkrOASd8VgxRER0U0mPhIKTpkOIDOOQLw",
+  "dashEntityUrn": "urn:li:fsd_jobPosting:4254510878",
   "eligibleForLearningCourseRecsUpsell": true,
   "eligibleForSharingProfileWithPoster": true,
   "jobState": "LISTED",
-  "trackingUrn": "urn:li:jobPosting:4288294341",
-  "formattedSalaryDescription": "64 €K/yr - 105,7 €K/yr",
+  "trackingUrn": "urn:li:jobPosting:4254510878",
+  "formattedSalaryDescription": "",
   "description": {
     "attributes": [
       {
-        "start": 409,
+        "start": 20,
+        "length": 32,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 207,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -131,7 +219,7 @@
         }
       },
       {
-        "start": 410,
+        "start": 208,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -141,7 +229,7 @@
         }
       },
       {
-        "start": 905,
+        "start": 358,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -151,7 +239,7 @@
         }
       },
       {
-        "start": 906,
+        "start": 359,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -161,7 +249,7 @@
         }
       },
       {
-        "start": 1127,
+        "start": 381,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -171,7 +259,7 @@
         }
       },
       {
-        "start": 1128,
+        "start": 382,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -181,181 +269,7 @@
         }
       },
       {
-        "start": 1129,
-        "length": 39,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 1168,
-        "length": 20,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 1168,
-        "length": 386,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 1554,
-        "length": 25,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 1554,
-        "length": 299,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 1853,
-        "length": 22,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 2181,
-        "length": 1,
-        "type": {
-          "com.linkedin.pemberly.text.LineBreak": {}
-        },
-        "attributeKindUnion": {
-          "lineBreak": {}
-        }
-      },
-      {
-        "start": 2182,
-        "length": 1,
-        "type": {
-          "com.linkedin.pemberly.text.LineBreak": {}
-        },
-        "attributeKindUnion": {
-          "lineBreak": {}
-        }
-      },
-      {
-        "start": 1853,
-        "length": 330,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 1168,
-        "length": 1015,
-        "type": {
-          "com.linkedin.pemberly.text.List": {
-            "ordered": false
-          }
-        },
-        "attributeKindUnion": {
-          "list": {
-            "ordered": false
-          }
-        }
-      },
-      {
-        "start": 2183,
-        "length": 16,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 2199,
-        "length": 18,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 2199,
-        "length": 239,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 2438,
-        "length": 6,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 2438,
-        "length": 221,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 2659,
-        "length": 12,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 2659,
-        "length": 231,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 2890,
+        "start": 360,
         "length": 23,
         "type": {
           "com.linkedin.pemberly.text.Bold": {}
@@ -365,7 +279,7 @@
         }
       },
       {
-        "start": 2965,
+        "start": 756,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -375,7 +289,7 @@
         }
       },
       {
-        "start": 2966,
+        "start": 757,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -385,8 +299,38 @@
         }
       },
       {
-        "start": 2890,
-        "length": 77,
+        "start": 775,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 776,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 758,
+        "length": 19,
+        "type": {
+          "com.linkedin.pemberly.text.Bold": {}
+        },
+        "attributeKindUnion": {
+          "bold": {}
+        }
+      },
+      {
+        "start": 777,
+        "length": 169,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         },
@@ -395,8 +339,88 @@
         }
       },
       {
-        "start": 2199,
-        "length": 768,
+        "start": 946,
+        "length": 119,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1065,
+        "length": 98,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1163,
+        "length": 191,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1354,
+        "length": 136,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1490,
+        "length": 171,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1793,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1794,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 1661,
+        "length": 134,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 777,
+        "length": 1018,
         "type": {
           "com.linkedin.pemberly.text.List": {
             "ordered": false
@@ -409,8 +433,8 @@
         }
       },
       {
-        "start": 2967,
-        "length": 13,
+        "start": 1795,
+        "length": 9,
         "type": {
           "com.linkedin.pemberly.text.Bold": {}
         },
@@ -419,77 +443,7 @@
         }
       },
       {
-        "start": 2980,
-        "length": 43,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 2980,
-        "length": 153,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 3133,
-        "length": 38,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 3133,
-        "length": 346,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 3479,
-        "length": 52,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 3479,
-        "length": 636,
-        "type": {
-          "com.linkedin.pemberly.text.ListItem": {}
-        },
-        "attributeKindUnion": {
-          "listItem": {}
-        }
-      },
-      {
-        "start": 4115,
-        "length": 21,
-        "type": {
-          "com.linkedin.pemberly.text.Bold": {}
-        },
-        "attributeKindUnion": {
-          "bold": {}
-        }
-      },
-      {
-        "start": 4414,
+        "start": 1805,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -499,7 +453,7 @@
         }
       },
       {
-        "start": 4415,
+        "start": 1806,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -509,8 +463,8 @@
         }
       },
       {
-        "start": 4115,
-        "length": 301,
+        "start": 1807,
+        "length": 130,
         "type": {
           "com.linkedin.pemberly.text.ListItem": {}
         },
@@ -519,8 +473,48 @@
         }
       },
       {
-        "start": 2980,
-        "length": 1436,
+        "start": 1937,
+        "length": 166,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2235,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2236,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2103,
+        "length": 134,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 1807,
+        "length": 430,
         "type": {
           "com.linkedin.pemberly.text.List": {
             "ordered": false
@@ -533,7 +527,7 @@
         }
       },
       {
-        "start": 4437,
+        "start": 2249,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -543,8 +537,18 @@
         }
       },
       {
-        "start": 4416,
-        "length": 22,
+        "start": 2250,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 2237,
+        "length": 14,
         "type": {
           "com.linkedin.pemberly.text.Bold": {}
         },
@@ -553,7 +557,97 @@
         }
       },
       {
-        "start": 4473,
+        "start": 2251,
+        "length": 87,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2338,
+        "length": 139,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2477,
+        "length": 134,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2611,
+        "length": 112,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2723,
+        "length": 66,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2789,
+        "length": 127,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2916,
+        "length": 84,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 3000,
+        "length": 48,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 3048,
+        "length": 65,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 3230,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -563,7 +657,7 @@
         }
       },
       {
-        "start": 4474,
+        "start": 3231,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -573,7 +667,31 @@
         }
       },
       {
-        "start": 4483,
+        "start": 3113,
+        "length": 119,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 2251,
+        "length": 981,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 3240,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -583,8 +701,18 @@
         }
       },
       {
-        "start": 4475,
-        "length": 9,
+        "start": 3241,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3232,
+        "length": 10,
         "type": {
           "com.linkedin.pemberly.text.Bold": {}
         },
@@ -593,7 +721,7 @@
         }
       },
       {
-        "start": 4521,
+        "start": 3265,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -603,7 +731,7 @@
         }
       },
       {
-        "start": 4522,
+        "start": 3266,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -613,18 +741,8 @@
         }
       },
       {
-        "start": 4544,
-        "length": 1,
-        "type": {
-          "com.linkedin.pemberly.text.LineBreak": {}
-        },
-        "attributeKindUnion": {
-          "lineBreak": {}
-        }
-      },
-      {
-        "start": 4523,
-        "length": 22,
+        "start": 3242,
+        "length": 25,
         "type": {
           "com.linkedin.pemberly.text.Bold": {}
         },
@@ -633,7 +751,7 @@
         }
       },
       {
-        "start": 4802,
+        "start": 3296,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -643,7 +761,7 @@
         }
       },
       {
-        "start": 4803,
+        "start": 3297,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -653,7 +771,7 @@
         }
       },
       {
-        "start": 4977,
+        "start": 3459,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -663,7 +781,7 @@
         }
       },
       {
-        "start": 4978,
+        "start": 3460,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -673,41 +791,31 @@
         }
       },
       {
-        "start": 5203,
-        "length": 1,
+        "start": 3298,
+        "length": 163,
         "type": {
-          "com.linkedin.pemberly.text.LineBreak": {}
+          "com.linkedin.pemberly.text.ListItem": {}
         },
         "attributeKindUnion": {
-          "lineBreak": {}
+          "listItem": {}
         }
       },
       {
-        "start": 5204,
-        "length": 1,
+        "start": 3298,
+        "length": 163,
         "type": {
-          "com.linkedin.pemberly.text.LineBreak": {}
-        },
-        "attributeKindUnion": {
-          "lineBreak": {}
-        }
-      },
-      {
-        "start": 5417,
-        "length": 9,
-        "type": {
-          "com.linkedin.pemberly.text.Hyperlink": {
-            "url": "https://bndspn.com/job-accommodation-request-form"
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
           }
         },
         "attributeKindUnion": {
-          "hyperlink": {
-            "url": "https://bndspn.com/job-accommodation-request-form"
+          "list": {
+            "ordered": false
           }
         }
       },
       {
-        "start": 5427,
+        "start": 3478,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -717,7 +825,7 @@
         }
       },
       {
-        "start": 5428,
+        "start": 3479,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -727,7 +835,7 @@
         }
       },
       {
-        "start": 5445,
+        "start": 3755,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -737,8 +845,230 @@
         }
       },
       {
-        "start": 5429,
-        "length": 17,
+        "start": 3756,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3480,
+        "length": 277,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 3480,
+        "length": 277,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 3779,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3780,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3781,
+        "length": 133,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 4006,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4007,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 3914,
+        "length": 94,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 3781,
+        "length": 227,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 4020,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4021,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4022,
+        "length": 179,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 4305,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4306,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4201,
+        "length": 106,
+        "type": {
+          "com.linkedin.pemberly.text.ListItem": {}
+        },
+        "attributeKindUnion": {
+          "listItem": {}
+        }
+      },
+      {
+        "start": 4022,
+        "length": 285,
+        "type": {
+          "com.linkedin.pemberly.text.List": {
+            "ordered": false
+          }
+        },
+        "attributeKindUnion": {
+          "list": {
+            "ordered": false
+          }
+        }
+      },
+      {
+        "start": 4545,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4546,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4584,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4585,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 4547,
+        "length": 39,
         "type": {
           "com.linkedin.pemberly.text.Bold": {}
         },
@@ -747,7 +1077,7 @@
         }
       },
       {
-        "start": 5561,
+        "start": 4982,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -757,7 +1087,7 @@
         }
       },
       {
-        "start": 5562,
+        "start": 4983,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -767,7 +1097,7 @@
         }
       },
       {
-        "start": 5814,
+        "start": 4992,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -777,7 +1107,7 @@
         }
       },
       {
-        "start": 5815,
+        "start": 4993,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -787,21 +1117,17 @@
         }
       },
       {
-        "start": 6251,
-        "length": 18,
+        "start": 4984,
+        "length": 10,
         "type": {
-          "com.linkedin.pemberly.text.Hyperlink": {
-            "url": "https://jobs.bendingspoons.com/faq#Relocation%20and%20remote%20work"
-          }
+          "com.linkedin.pemberly.text.Bold": {}
         },
         "attributeKindUnion": {
-          "hyperlink": {
-            "url": "https://jobs.bendingspoons.com/faq#Relocation%20and%20remote%20work"
-          }
+          "bold": {}
         }
       },
       {
-        "start": 6316,
+        "start": 5174,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -811,7 +1137,27 @@
         }
       },
       {
-        "start": 6317,
+        "start": 5175,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5504,
+        "length": 1,
+        "type": {
+          "com.linkedin.pemberly.text.LineBreak": {}
+        },
+        "attributeKindUnion": {
+          "lineBreak": {}
+        }
+      },
+      {
+        "start": 5505,
         "length": 1,
         "type": {
           "com.linkedin.pemberly.text.LineBreak": {}
@@ -821,55 +1167,50 @@
         }
       }
     ],
-    "text": "At Bending Spoons, we’re striving to build one of the all-time great companies. A company that serves a huge number of customers. A company where team members grow to their full potential. A company that functions at unparalleled levels of effectiveness and efficiency. A company that creates value for shareowners at an extraordinary rate. And a company that does so while adhering to high ethical standards.\n\nTo achieve this objective, we execute the following strategy: We acquire a digital business with untapped potential and make it as successful as we can by leveraging our platform—which comprises our expertise, technologies, data, brand, talents, and company culture. Then, we invest the proceeds into making our platform more powerful, and into acquiring new businesses. Thus, our strategy sees us combine an investor’s attention to capital allocation with the hands-on approach of an operator.\n\nFor a talented, driven, and collaborative individual, working at Bending Spoons is an opportunity to learn, make an impact, and progress their career at an exceptionally high rate. That’s our promise to such a candidate.\n\nA few examples of your responsibilitiesMaster your toolkit. By working across diverse tech stacks, you’ll refine your ability to choose the right tools for every challenge. From monolithic to microservices architectures, gRPC to REST APIs, Kubernetes to Docker, Python to Rust—you’ll show that true expertise isn’t about using the trendiest technologies, but about understanding their purpose to unleash their full potential.Build stuff that matters. Regardless of your seniority, you’ll enjoy plenty of autonomy and take full ownership of your work, from ideation to execution. You’ll have the unique opportunity to build software from the ground up and witness firsthand how your code evolves into a product used at scale.Simplify relentlessly. Is every component essential? Do we need this process? As a Bending Spoons engineer, your mission is to turn complexity into simplicity. Whether optimizing CI/CD pipelines, writing maintainable code, or crafting minimalist architectures, your drive to simplify will power scalable, future-proof solutions.\n\nWhat we look forReasoning ability. Given the necessary knowledge, you can solve complex problems. You think from first principles, and structure your ideas sharply. You resist the influence of biases. You identify and take care of the details that matter.Drive. You’re extremely ambitious in everything you do—and your initiative, effort, and tenacity match the intensity of your ambition. You feel deeply responsible for your work. You hold yourself to a high—and rising—bar.Team spirit. You give generously and without the expectation of receiving in return. You support the best idea, not your idea. You're always happy to get your hands dirty to help your team. You’re reliable, honest, and transparent.Proficiency in English. You read, write, and speak proficiently in English.\n\nWhat we offerIncredibly talented, entrepreneurial teams. You’ll work in small, result-oriented, autonomous teams alongside some of the brightest people in your field.An exceptional opportunity for growth. We go to great lengths to hire individuals of outstanding potential—then, our priority is to put them in the ideal position to thrive. Spooners in their 20s lead products worth hundreds of millions of dollars. And if you’ve got what it takes, you’ll soon be playing an essential role in major projects, too.Competitive pay and access to equity in the company. Typically, we offer an individual at the start of their career a salary of £66,779 in the UK and €63,965 elsewhere. For a candidate that we assess as possessing considerable relevant experience, the salary on offer tends to be between £110,389 and £149,636 in the UK, and €105,737 and €143,330 elsewhere. Pay grows rapidly as you accumulate experience and translate it into greater impact. You can also receive some of your pay in company equity at a discounted price, thus participating in the value creation we achieve together. If relocating to Italy, you may enjoy a 50% tax cut.All. These. Benefits. Flexible hours, remote working, unlimited backing for learning and training, top-of-the-market health insurance, a rich relocation package, generous parental support, and a yearly retreat to a stunning location. We help each Spooner set up the conditions to do their best work.\n\nCommitment & contract\nPermanent or fixed-term. Full-time.\n\nLocation\nMilan (Italy), London (UK) or remote.\n\nThe selection process\nIf you pass our screening, we’ll ask you to take on a few tests designed to assess how you approach unfamiliar problems. They’re challenging and may take several hours to complete. If you’re successful with those, we’ll invite you to a series of interviews.\n\nWe set the bar high and won't extend an offer until we're convinced we've found the right candidate. This is why a job may stay open for months or be reposted several times.\n\nStudies suggest that women tend not to apply for a job if their CV isn’t a perfect fit. Here, talent takes precedence over experience. So if you like the role and think you could be awesome at it in time, go ahead and apply.\n\nBending Spoons is an equal opportunity and affirmative action employer. We consider for employment any applicant and provide reasonable accommodations for an individual with disabilities—just let us know through this form.\n\nBefore you apply\nIf you’ve applied before but didn't receive an offer, we recommend waiting at least one year before applying again.\n\nBending Spoons is a demanding environment. We’re extremely ambitious and we hold ourselves—and one another—to a high standard. While this tends to lead to extraordinary learning, achievement, and career growth, it also requires significant commitment.\n\nTo help you ramp up quickly and set yourself up for success, we recommend spending your first few months working from our Milan office, regardless of your long-term work location. It’s the best way to rapidly absorb our company culture and build trust with your new teammates. We’ll support you with generous travel and accommodation assistance. After that, you’re welcome to work from our offices in Milan or London, or remotely from approved countries—depending on what we agree at the offer stage.\n\nIf the role speaks to you and you’re excited to give your best, we’d love to hear from you. Apply now—we can’t wait to meet you."
+    "text": "We're looking for a Senior Site Reliability Engineer to join our dream team and play a crucial role in building the Infrastructure and DevOps department that powers our innovative, industry-leading products.\n\nIf you're a highly motivated person with a real interest in tech and a passion for building cutting-edge products, we've got the perfect job for you!\n\nA Little Bit About Us\n\nLeadtech has fostered and developed innovative digital businesses across various industries since 2009. We've now got a team of over 800 dedicated employees working around the world, especially in Spain. We're really proud to have more than 23 nationalities working together, and we love that millions of users around the globe enjoy our products and services every month. \n\nWhat will you do?\n\nDesign, implement, and maintain scalable and reliable cloud infrastructure for the backend services developed, leveraging modern practices such as Infrastructure as CodeImplement and refine monitoring, logging, and alerting strategies using GCP's native tools and other relevant solutionsDesign, implement, and maintain Continuous Integration and Continuous Deployment (CI/CD) pipelinesCollaborate closely with mobile, web and backend development teams to define and implement best practices for deployment, performance optimization, and observability of mobile backends on GCPEnsure that security best practices are followed in the configuration of GCP infrastructure and deployment pipelines for mobile backendsCreate and maintain detailed technical documentation on deployment architecture, processes, and troubleshooting guides specific to our mobile backend infrastructure on GCPProactively identify and implement improvements to our GCP infrastructure and DevOps processes to enhance efficiency and reliability\n\nYour team \n\nWe're team-first. If you believe in the power of collaboration and that the team's success is your success, then you're one of us!Fun is fundamental. We believe in forming strong bonds in and outside the office. That's why we have a team-building budget and organize activities to enjoy ourselvesPositivity wins the day. Bring a positive attitude and communicate openly. Self-awareness and an openness to learn are always a plus\n\nRequirements\n\nBachelor's or Master's degree in Computer Science, Data Engineering, or a related fieldExtensive senior-level experience (6+ years) leading, architecting, and guiding complex DevOps transformations and infrastructure evolutionStrong proficiency with Google Cloud Platform (GCP) services, including services like Cloud Run, BigQuery, Cloud Storage or NetworkingSolid experience with Infrastructure as Code tools (e.g., Terraform) for provisioning and managing GCP resourcesSolid Experience with containerization technologies (e.g., Docker)Solid Experience with monitoring and logging tools specific to GCP (e.g., Cloud Monitoring, Cloud Logging, Prometheus, Grafana)Experience with some programming languages (preferably Typescript, JS, Go or Python)Knowledge of version control systems (e.g., Git)A strong preference for working in agile and dynamic environmentsExpertise in fostering teamwork, enabling effective collaboration and synergy across teams for continuous improvement\n\nBenefits\n\nWHY SHOULD YOU JOIN US?\n\nGrowth and career development\n\nAt Leadtech, we prioritize your growth. Enjoy a flexible career path with personalized internal training and an annual budget for external learning opportunities\n\nWork-Life balance\n\nBenefit from a flexible schedule with flextime (7 - 9:30 a.m. start, 3:30 - 6 p.m. end) and the option of working full remote or from our Barcelona office. Enjoy free Friday afternoons with a 7-hour workday, plus a 35-hour workweek in July and August so you can savor summer!\n\nComprehensive benefits\n\nCompetitive salary, full-time permanent contract, and top-tier private health insurance (including dental and psychological services)25 days of vacation plus your birthday off, with flexible vacation options—no blackout days!\n\nUnique Perks\n\nIf you wish to come, in our office in Barcelona you'll find it complete with free coffee, fresh fruit, snacks, a game room, and a rooftop terrace with stunning Mediterranean viewsAdditional benefits include ticket restaurant and nursery vouchers, paid directly from your gross salary\n\nJoin us in an environment where you're free to innovate, learn, and grow alongside passionate professionals. At Leadtech, you'll tackle exciting challenges and be part of a vibrant team dedicated to delivering exceptional user experiences\n\nEqual Employment Opportunity Employer\n\nLeadtech is an Equal Employment Opportunity (EEO) Employer, which means we encourage applications from people with different backgrounds, interests, and personal circumstances. Our team welcomes applicants regardless of their race, gender, age, religion, nationality, sexual orientation, and/or disabilities. All we need is your high energy, skills, and willingness to be part of a great project!\n\nLocation\n\nYou'll have the flexibility to choose whether you'd like to come to the office every day, from time to time, or work fully remote. We want you to find the best combination for you.\n\nIf you prefer to be surrounded with amazing people, our exceptional office is in Barcelona's Blue Building, located right on the city's seafront. Besides our stunning views, you'll enjoy our office perks such as free fruit, snacks, and coffee and you'll also be able to take part in our Mario Kart and table tennis competitions.\n\nThe personal data you provide will be used to manage your candidacy for the corporate selection processes that fit your profile. If you wish, you can exercise your rights of access, rectification or cancellation by sending a letter to Avenida Litoral, 12-14, 5ta planta, Barcelona 08005, or emailing us at protecciondedatos@LeadTech.com, including a document that validates your identity."
   },
   "formattedEmploymentStatus": "A tempo pieno",
-  "title": "Software Engineer",
-  "originalListedAt": 1755733472000,
+  "title": "Senior Site Reliability Engineer - Google Cloud Platform (GCP)",
+  "originalListedAt": 1750519695000,
   "localizedCostPerApplicantChargeableRegion": "Unione Europea",
-  "skillsDescription": {
-    "attributes": [],
-    "text": "Algorithms, Attention to Detail, Code Refactoring, Computer Science, Debugging, Optimization, Problem Solving, Reasoning Skills, Software Development, Software Engineers"
-  },
-  "entityUrn": "urn:li:fs_normalized_jobPosting:4288294341",
+  "entityUrn": "urn:li:fs_normalized_jobPosting:4254510878",
   "workRemoteAllowed": true,
   "briefBenefitsDescription": "",
   "applyMethod": {
-    "com.linkedin.voyager.jobs.OffsiteApply": {
-      "applyStartersPreferenceVoid": false,
-      "companyApplyUrl": "https://jobs.bendingspoons.com/positions/658c459fe3a0e8a03d2fb86d?utm_medium=job_post&utm_source=linkedin&utm_campaign=68a64575596d5b5a03805073",
-      "inPageOffsiteApply": false
+    "com.linkedin.voyager.jobs.ComplexOnsiteApply": {
+      "unifyApplyEnabled": true,
+      "easyApplyUrl": "https://www.linkedin.com/job-apply/4254510878",
+      "companyApplyUrl": "https://apply.workable.com/j/1C778DF61E?src=LinkedIn&utm_source=linkedin.com&src=LinkedIn&src=LinkedIn&utm_source=linkedin.com&gh_src=i5qg2y1&gh_src=3d45b0b2teu&utm_source=linkedin.com"
     }
   },
   "thirdPartySourced": false,
   "benefitsDataSource": "JOB_POSTER",
-  "views": 265,
+  "views": 369,
   "savingInfo": {
     "saved": false,
-    "entityUrn": "urn:li:fs_jobSavingInfo:4288294341",
-    "dashSaveStateUrn": "urn:li:fsd_saveState:(SAVE,urn:li:fsd_jobPosting:4288294341)"
+    "entityUrn": "urn:li:fs_jobSavingInfo:4254510878",
+    "dashSaveStateUrn": "urn:li:fsd_saveState:(SAVE,urn:li:fsd_jobPosting:4254510878)"
   },
   "eligibleForReferrals": false,
   "formattedJobFunctions": [
-    "Ingegneria",
-    "Informatica"
+    "Altro"
   ],
-  "dashJobPostingCardUrn": "urn:li:fsd_jobPostingCard:(4288294341,JOB_DETAILS)",
+  "dashJobPostingCardUrn": "urn:li:fsd_jobPostingCard:(4254510878,JOB_DETAILS)",
   "locationVisibility": "ADDRESS",
   "sponsored": false,
-  "expireAt": 1758327110000,
-  "listedAt": 1755735110000,
-  "videoIntroSetupText": "Ho letto la tua candidatura per il ruolo di Software Engineer presso Bending Spoons e il tuo background mi ha davvero colpito. Ora vorrei invitarti a rispondere ad alcune domande con una breve video presentazione, o anche per iscritto. Preferirei un video perché ci aiuterebbe a farci un’idea del tuo stile di comunicazione verbale. Se hai domande, scrivimi pure.",
+  "expireAt": 1758296297000,
+  "listedAt": 1754305507000,
+  "videoIntroSetupText": "Ho letto la tua candidatura per il ruolo di Senior Site Reliability Engineer - Google Cloud Platform (GCP) presso Leadtech Group e il tuo background mi ha davvero colpito. Ora vorrei invitarti a rispondere ad alcune domande con una breve video presentazione, o anche per iscritto. Preferirei un video perché ci aiuterebbe a farci un’idea del tuo stile di comunicazione verbale. Se hai domande, scrivimi pure.",
   "claimableByViewer": false,
-  "jobPostingId": 4288294341,
+  "jobPostingId": 4254510878,
   "scheduleDescription": "",
   "formattedIndustries": [
-    "Sviluppo di software"
+    "Servizi IT e consulenza IT"
   ],
   "industries": [
-    4
+    96
   ],
   "allowedToEdit": false,
-  "sourceDomain": "jobs.bendingspoons.com",
+  "sourceDomain": "apply.workable.com",
   "openToHiringJobSharingState": "NOT_SHARED"
 }

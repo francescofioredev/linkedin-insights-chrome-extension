@@ -1,9 +1,8 @@
-// popup.js
 (() => {
     "use strict";
     const LOG = "[LI applies][popup]";
 
-    // ---- MAPPING TABLES (estendibili) ----
+    // ---- MAPPING TABLES (extendable) ----
     const WORKPLACE_TYPE_MAP = {
         "1": "On-site",
         "2": "Hybrid",
@@ -66,17 +65,17 @@
         }
     }
 
-    // ---- NORMALIZZATORI ----
+    // ---- NORMALIZERS ----
     function lastUrnToken(urn) {
         if (typeof urn !== "string") return null;
-        // prende l’ultimo token dopo i due punti (gestisce anche enm-xxx)
+        // takes the last token after the colon (also handles enm-xxx)
         const m = urn.match(/:([a-z0-9_-]+)$/i);
         return m ? m[1] : null;
     }
 
     function humanizeToken(token) {
         if (!token) return null;
-        if (/^\d+$/.test(token)) return token; // numero → lasciamo il numero (sarà usato come chiave nel dict)
+        if (/^\d+$/.test(token)) return token; // number → keep the number (will be used as dict key)
         return token.replace(/^enm-/, "").replace(/-/g, " ");
     }
 
@@ -86,13 +85,13 @@
         }
         const labels = [];
         for (const it of list) {
-            // può arrivare già “Hybrid”, oppure come URN "urn:li:fs_workplaceType:2"
+            // can already be "Hybrid", or as URN "urn:li:fs_workplaceType:2"
             if (typeof it === "string" && !it.startsWith("urn:")) {
                 labels.push(it);
                 continue;
             }
             const token = lastUrnToken(String(it));
-            const key = token && token.replace(/^fs_workplaceType:/, ""); // gestisci eventuale doppio segmento
+            const key = token && token.replace(/^fs_workplaceType:/, ""); // handle possible double segment
             const label = (key && WORKPLACE_TYPE_MAP[key]) || (humanizeToken(key) || String(it));
             labels.push(label);
         }
@@ -143,9 +142,9 @@
             salaryMonthly = fmtCurrency(Math.round(avg / 12), cur) + "/mo";
         }
 
-        // Dates (semplificato, senza duplicati inutili)
-        const postedAt = data?.listedAt ?? null; // Data pubblicazione
-        const expireAt = data?.expireAt ?? null; // Data scadenza
+        // Dates (simplified, without unnecessary duplicates)
+        const postedAt = data?.listedAt ?? null; // Posting date
+        const expireAt = data?.expireAt ?? null; // Expiration date
         const applicationDeadlineAt = data?.applicationDeadlineAt ?? data?.applicationCloseDate ?? null;
 
         // 🔁 Functions & Industries mapping (NUOVO)

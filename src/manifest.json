@@ -1,18 +1,32 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn Job Applies Inspector",
-  "version": "0.3.0",
-  "description": "Show applicants, salary and dates for LinkedIn job postings via direct Voyager calls. UI in the popup.",
+  "name": "LinkedIn Job Insights",
+  "version": "0.3.3",
+  "action": {
+    "default_title": "LinkedIn Job Insights",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "32": "assets/icon-32.png",
+      "48": "assets/icon-48.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
     "https://www.linkedin.com/*"
   ],
-  "action": {
-    "default_title": "LinkedIn Job Insights",
-    "default_popup": "popup.html"
+  "background": {
+    "service_worker": "bg.js"
   },
   "content_scripts": [
     {

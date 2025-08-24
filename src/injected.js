@@ -1,4 +1,3 @@
-// injected.js
 (() => {
     const LOG = "[LI applies][injected]";
 
@@ -20,20 +19,20 @@
     }
 
     function getCsrfTokenFromJSession() {
-        const raw = getCookie("JSESSIONID");            // es: "ajax:3210…"
+        const raw = getCookie("JSESSIONID");            // e.g.: "ajax:3210..."
         if (!raw) {
-            console.warn(LOG, "Missing JSESSIONID cookie");
+            console.warn(LOG, "Missing JSESSIONID cookie"); // removed debug log
             return null;
         }
         const token = raw.replace(/^"|"$/g, "");
-        console.debug(LOG, "Extracted CSRF:", token);
+        // console.debug(LOG, "Extracted CSRF:", token); // removed debug log
         return token;
     }
 
     async function fetchJobPosting(jobId, topN = 1) {
         const csrf = getCsrfTokenFromJSession();
         const url = `/voyager/api/jobs/jobPostings/${encodeURIComponent(jobId)}?topN=${encodeURIComponent(topN)}`;
-        console.log(LOG, "Fetching:", url);
+        // console.log(LOG, "Fetching:", url); // removed debug log
 
         const res = await fetch(url, {
             method: "GET",
@@ -49,11 +48,11 @@
         const status = res.status;
         if (!res.ok) {
             const text = await res.text().catch(() => "");
-            console.error(LOG, "Fetch failed:", status, text.slice(0, 300));
+            console.error(LOG, "Fetch failed:", status, text.slice(0, 300)); // removed debug log
             throw Object.assign(new Error(`HTTP ${status}`), {status, csrfPresent: !!csrf});
         }
         const data = await res.json();
-        console.debug(LOG, "Fetch success, snippet:", JSON.stringify(data).slice(0, 200));
+        // console.debug(LOG, "Fetch success, snippet:", JSON.stringify(data).slice(0, 200)); // removed debug log
         return {data, status, csrfPresent: !!csrf};
     }
 

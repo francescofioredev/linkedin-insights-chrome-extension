@@ -1,9 +1,8 @@
-// content.js
 (() => {
     "use strict";
     const LOG = "[LI applies][content]";
 
-    // Inietta lo script in-page (una volta)
+    // Inject the in-page script (once)
     (function injectOnce() {
         if (document.documentElement.dataset.liAppliesInjected === "1") return;
         const s = document.createElement("script");
@@ -12,10 +11,9 @@
         s.onload = () => s.remove();
         (document.head || document.documentElement).appendChild(s);
         document.documentElement.dataset.liAppliesInjected = "1";
-        console.debug(LOG, "injected.js injected");
     })();
 
-    // Helpers per identificare il jobId
+    // Helpers to identify the jobId
     function getJobIdFromQuery() {
         try {
             return new URL(location.href).searchParams.get("currentJobId");
@@ -53,7 +51,7 @@
         return getJobIdFromQuery() || getJobIdFromPath() || getJobIdFromDom();
     }
 
-    // Richiesta a injected.js + risposta al popup
+    // Request to injected.js + response to popup
     function fetchJobData(jobId, sendResponse) {
         const timeoutMs = 12000;
         let done = false;
@@ -67,7 +65,6 @@
                 console.warn(LOG, "Fetch failed:", error);
                 sendResponse({ok: false, error, status, csrfPresent, jobId});
             } else {
-                console.log(LOG, "Fetch ok for jobId", jobId, "status", status);
                 sendResponse({ok: true, data, status, csrfPresent, jobId});
             }
         };
@@ -85,11 +82,10 @@
             handleResult(ev);
         }, {once: true});
 
-        console.log(LOG, "Requesting LI_DIRECT_FETCH for", jobId);
         window.dispatchEvent(new CustomEvent("LI_DIRECT_FETCH", {detail: {jobId, topN: 1}}));
     }
 
-    // Listener per richieste dal popup
+    // Listener for requests from popup
     chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
         if (msg?.type !== "GET_JOB_DETAILS") return; // ignore other messages
 
@@ -107,4 +103,25 @@
         fetchJobData(jobId, sendResponse);
         return true; // keep the message channel open (async response)
     });
+})();
+
+// Ping the background script (once, and on URL changes in SPA)
+(function pingBG() {
+    if (location.pathname.startsWith("/jobs/")) {
+        chrome.runtime.sendMessage({type: "JOBS_CONTEXT_PING"});
+    }
+    // re-fire the ping when the URL changes in the SPA
+    const fire = () => chrome.runtime.sendMessage({type: "JOBS_CONTEXT_PING"});
+    const p = history.pushState, r = history.replaceState;
+    history.pushState = function (...a) {
+        const ret = p.apply(this, a);
+        fire();
+        return ret;
+    };
+    history.replaceState = function (...a) {
+        const ret = r.apply(this, a);
+        fire();
+        return ret;
+    };
+    window.addEventListener("popstate", fire);
 })();

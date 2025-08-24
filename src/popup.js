@@ -300,7 +300,7 @@
     });
     $("goJobs").addEventListener("click", async () => {
         const url = "https://www.linkedin.com/jobs/";
-        const [tab] = await chrome.tabs.query({active: true, currentWindow: true});
+        const [tab] = await chrome.tabs.query({active: true, currentWindow: false});
         if (tab?.id) chrome.tabs.update(tab.id, {url});
         else chrome.tabs.create({url});
     });

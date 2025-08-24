@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "LinkedIn Job Insights",
   "description": "Unofficial extension to see applicants, views, salary and key dates on LinkedIn job pages. All processing local.",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "action": {
     "default_title": "LinkedIn Job Insights",
     "default_popup": "popup.html",

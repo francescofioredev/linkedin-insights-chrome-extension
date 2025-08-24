@@ -152,7 +152,6 @@ For full details, see [`PRIVACY.md`](./PRIVACY.md) and [`SECURITY.md`](./SECURIT
 ## 🗺️ Roadmap
 
 * Options page (enable/disable fields, custom currency).
-* Caching by `jobId`.
 * TypeScript + ESLint.
 * i18n for labels & formatting.
 * Extra Voyager fields (only if stable across accounts).

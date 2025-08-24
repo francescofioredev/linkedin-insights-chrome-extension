@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Job Insights",
+  "description": "Unofficial extension to see applicants, views, salary and key dates on LinkedIn job pages. All processing local.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "LinkedIn Job Insights",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "32": "assets/icon-32.png",
+      "48": "assets/icon-48.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.linkedin.com/*"
+  ],
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.linkedin.com/jobs/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injected.js"
+      ],
+      "matches": [
+        "*://*.linkedin.com/*"
+      ]
+    }
+  ]
+}

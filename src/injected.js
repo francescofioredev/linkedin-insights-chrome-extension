@@ -19,9 +19,7 @@
     }
 
     function getCsrfTokenFromJSession() {
-        const raw = getCookie("JSESSIONID");            // e.g.: "ajax:3210..."
-        if (!raw) {
-            console.warn(LOG, "Missing JSESSIONID cookie"); // removed debug log
+            console.warn(LOG, "Missing JSESSIONID cookie"); // warning log for missing cookie
             return null;
         }
         const token = raw.replace(/^"|"$/g, "");

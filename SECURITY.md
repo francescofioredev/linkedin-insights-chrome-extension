@@ -4,7 +4,7 @@
 
 Please open a **private** security report (GitHub Security Advisory / email) instead of a public issue:
 
-- Email: <YOUR SECURITY EMAIL>
+- Email: francesco.fiore.dev@gmail.com
 - Include steps to reproduce, affected files, and potential impact.
 
 We do not operate any servers and do not collect user data; issues are limited to client-side code execution and permission scope.

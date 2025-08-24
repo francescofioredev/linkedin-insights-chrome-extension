@@ -1,4 +1,4 @@
-# Privacy Policy — LinkedIn Job Applies Inspector
+# Privacy Policy — LinkedIn Job Inspector
 
 **TL;DR:** This extension collects **no personal data** and sends **nothing** off your device.  
 All processing happens **locally** in your browser on pages you open.
@@ -41,4 +41,4 @@ All processing happens **locally** in your browser on pages you open.
 
 ## Contact
 
-- Maintainer: <YOUR NAME/EMAIL OR GITHUB ISSUES LINK>
+- Maintainer: [Open a GitHub issue](https://github.com/francescofioredev/linkedin-chrome-extension/issues)

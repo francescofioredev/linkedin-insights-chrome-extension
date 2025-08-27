@@ -5,8 +5,8 @@
     // ---- MAPPING TABLES (extendable) ----
     const WORKPLACE_TYPE_MAP = {
         "1": "On-site",
-        "2": "Hybrid",
-        "3": "Remote"
+        "2": "Remote",
+        "3": "Hybrid"
     };
 
     const $ = (id) => document.getElementById(id);
